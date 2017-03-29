@@ -1,0 +1,58 @@
+.cur-btn {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #4687F4;
+    border-radius: 16px;
+    border-radius: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 3px #ffffff;
+}
+
+.cur-btn:before {
+    content: "";
+    width: 16px;
+    height: 0;
+    border-bottom: 2px solid #4687F4;
+    position: absolute;
+    top: 7px;
+    z-index: 1;
+}
+
+.cur-btn:after {
+    content: "";
+    height: 16px;
+    width: 0;
+    border-left: 2px solid #4687F4;
+    position: absolute;
+    left: 7px;
+    z-index: 1;
+}
+
+.cur-btn-cir {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    z-index: 2;
+}
+
+.info-win {
+    width: 150px;
+    height: 130px;
+}
+
+.info-img {
+    width: 150px;
+    height: 100px;
+}
+
+.info-pname {
+    color: #000000;
+    font-size: 12px;
+    line-height: 30px;
+}
